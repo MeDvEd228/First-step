@@ -368,37 +368,6 @@ int main()
 {
     Game g;
     do {
-        /*
-        initGame(g);
-        Coord c;
-        clearScr();
-        printGame(g);
-
-        do
-        {
-
-            if (g.turn % 2 == 0)
-            {
-                c = getCoordHuman(g);
-                g.ppField[c.y][c.x] = g.human;
-            }
-            else
-            {
-                c = getCoordAi(g);
-                g.ppField[c.y][c.x] = g.ai;
-            }
-
-            g.turn++;
-            clearScr();
-            printGame(g);
-
-            g.progress = getWon(g);
-
-        } while (g.progress == IN_PROGRESS);
-
-        Congrats(g);
-        */
-
         string Ans;
         cout << "Start game? y/n" << endl;
         cin >> Ans;
